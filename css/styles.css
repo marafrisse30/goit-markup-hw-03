@@ -326,6 +326,7 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--product-item-name-color);
+  margin-top: 4px;
 }
 .product-list {
   display: flex;
@@ -338,6 +339,9 @@ body {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .product-item-suptitle {
   font-weight: 700;
@@ -347,6 +351,9 @@ body {
   letter-spacing: 0.06em;
 
   color: var(--black-title-color);
+}
+.product-item-content {
+  padding: 20px 24px;
 }
 .category-list-container {
   padding-top: 94px;
